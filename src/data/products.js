@@ -1,9 +1,9 @@
-import producto1 from "../assets/images/producto-1.jpeg";
-import producto2 from "../assets/images/producto-2.jpeg";
-import producto3 from "../assets/images/producto-3.jpeg";
-import producto4 from "../assets/images/producto-4.jpeg";
-import producto5 from "../assets/images/producto-5.jpeg";
-import producto6 from "../assets/images/producto-6.jpeg";
+import producto1 from "../assets/images/Producto-1.jpeg";
+import producto2 from "../assets/images/Producto-2.jpeg";
+import producto3 from "../assets/images/Producto-3.jpeg";
+import producto4 from "../assets/images/Producto-4.jpeg";
+import producto5 from "../assets/images/Producto-5.jpeg";
+import producto6 from "../assets/images/Producto-6.jpeg";
 
 export const products = [
   {
