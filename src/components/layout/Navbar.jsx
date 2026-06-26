@@ -74,7 +74,7 @@ function Navbar() {
         </nav>
 
         <a
-          href="https://wa.me/50251239296"
+          href="https://wa.me/50251239296?text=Hola%2C%20este%20es%20un%20mensaje%20desde%20la%20p%C3%A1gina%20de%20La%20Magia%20del%20Sabor.%20Quiero%20hacer%20un%20pedido."
           target="_blank"
           className="hidden lg:flex bg-bread hover:bg-caramel text-white px-6 py-3 rounded-full transition"
         >
