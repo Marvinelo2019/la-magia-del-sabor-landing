@@ -2,9 +2,25 @@ import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
 
 function OrderSection() {
+
+  const phone = "50251239296";
+
+  const message = encodeURIComponent(
+`Hola 👋
+
+Estoy visitando la página web de La Magia del Sabor y me gustaría realizar un pedido.
+
+¿Podrían brindarme más información sobre sus productos y disponibilidad?
+
+¡Muchas gracias!`
+  );
+
+  const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
+
   return (
     <section id="pedido" className="bg-coffee py-24 sm:py-32 px-6">
       <div className="max-w-6xl mx-auto text-center">
+
         <motion.p
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -40,13 +56,15 @@ function OrderSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.35 }}
-          href="https://wa.me/50251239296"
+          href={whatsappUrl}
           target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-3 mt-10 bg-bread hover:bg-caramel text-white px-9 py-5 rounded-full text-lg font-semibold transition"
         >
           <FaWhatsapp size={24} />
           Pedir por WhatsApp
         </motion.a>
+
       </div>
     </section>
   );
